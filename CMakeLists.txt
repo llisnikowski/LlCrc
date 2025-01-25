@@ -12,7 +12,7 @@ project(LlCrc LANGUAGES CXX)
 
 
 file(GLOB SOURCES
-    src/*.cpp
+    src/llCrc/*.cpp
 )
 add_library(${PROJECT_NAME}
     ${SOURCES}
